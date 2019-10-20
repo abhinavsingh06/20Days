@@ -139,4 +139,11 @@ table {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.wrapper {
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
 /*# sourceMappingURL=style.css.map */
