@@ -75,3 +75,12 @@ body {
     bottom: -208px;
     border-bottom: none;
 }
+
+.mountains-left,
+.mountains-right {
+    position: absolute;
+    bottom: 18px;
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid #22366C;
+}
