@@ -454,4 +454,13 @@ body {
   border-right: 35px solid transparent;
   top: -10px;
 }
+
+.cat-ears:after {
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid #2D2623;
+  border-left: 35px solid transparent;
+  top: -10px;
+  right: 0;
+}
 /*# sourceMappingURL=style.css.map */
