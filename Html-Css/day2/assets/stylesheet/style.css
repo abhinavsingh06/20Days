@@ -318,4 +318,16 @@ body {
   background-color: inherit;
   position: absolute;
 }
+
+.clouds:before {
+  width: 95px;
+  top: 24px;
+  left: 35px;
+}
+
+.clouds:after {
+  width: 55px;
+  top: -24px;
+  left: 100px;
+}
 /*# sourceMappingURL=style.css.map */
