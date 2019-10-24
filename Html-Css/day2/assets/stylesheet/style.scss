@@ -309,10 +309,39 @@ body {
     left: 35px;
 }
 
-.clouds span:before,
-.clouds span:after {
-    height: inherit;
-    border-radius: 14px;
-    background-color: #294679;
-    width: 40px;
+// .clouds span:before,
+// .clouds span:after {
+//     height: inherit;
+//     border-radius: 14px;
+//     background-color: #294679;
+//     width: 40px;
+// }
+
+// .clouds span:before {
+//     left: -20px;
+// }
+
+// .clouds span:after {
+//     right: -25px;
+// }
+
+.cat {
+    background-color: #2D2623;
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    left: 90px;
+    animation: breathe-belly 8s ease infinite;
+}
+
+.cat-body {
+    position: absolute;
+    width: 45px;
+    height: 125px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    background-color: inherit;
+    bottom: 0;
+    transform-origin: left bottom;
+    animation: breathe-body 8s ease infinite;
 }
