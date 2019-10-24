@@ -150,4 +150,29 @@ body {
   position: absolute;
   border-radius: 50%;
 }
+
+.star-glow {
+  -webkit-animation: glow ease-in-out infinite alternate;
+          animation: glow ease-in-out infinite alternate;
+}
+
+.star-1 {
+  width: 8px;
+  height: 8px;
+  top: 230px;
+  left: 50%;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.star-1:before {
+  width: 4px;
+  height: 4px;
+  left: -90px;
+  top: 60px;
+  -webkit-animation: glow ease-in-out infinite alternate;
+          animation: glow ease-in-out infinite alternate;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+}
 /*# sourceMappingURL=style.css.map */

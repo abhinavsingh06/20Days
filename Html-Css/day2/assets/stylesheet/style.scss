@@ -140,3 +140,24 @@ body {
     position: absolute;
     border-radius: 50%;
 }
+
+.star-glow {
+    animation: glow ease-in-out infinite alternate;
+}
+
+.star-1 {
+    width: 8px;
+    height: 8px;
+    top: 230px;
+    left: 50%;
+    animation-duration: 5s;
+}
+
+.star-1:before {
+    width: 4px;
+    height: 4px;
+    left: -90px;
+    top: 60px;
+    animation: glow ease-in-out infinite alternate;
+    animation-duration: 6s;
+}
