@@ -224,4 +224,53 @@ body {
   top: 215px;
   left: 45px;
 }
+
+.star-3:before {
+  width: 3px;
+  height: 3px;
+  top: 54px;
+  left: 75px;
+}
+
+.star-3:after {
+  width: 3px;
+  height: 3px;
+  top: 10px;
+  left: 140px;
+}
+
+.star-4 {
+  width: 3px;
+  height: 3px;
+  top: 20px;
+  left: 100px;
+}
+
+.star-4:before {
+  width: 6px;
+  height: 6px;
+  top: 32px;
+  left: -18px;
+}
+
+.star-4:after {
+  width: 3px;
+  height: 3px;
+  top: 135px;
+  left: -35px;
+}
+
+.star-5 {
+  width: 3px;
+  height: 3px;
+  top: 40px;
+  left: 210px;
+}
+
+.star-5:before {
+  width: 3px;
+  height: 3px;
+  top: 110px;
+  left: 10px;
+}
 /*# sourceMappingURL=style.css.map */
