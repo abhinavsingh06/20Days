@@ -94,3 +94,41 @@ body {
     right: 6px;
     border-left: 22px solid transparent;
 }
+
+.mountains-left:before,
+.mountains-left:after,
+.mountains-right:before {
+    width: 0;
+    height: 0;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-bottom: 68px solid #22366C;
+}
+
+.mountains-left:before {
+    left: 22px;
+}
+
+.mountains-right:before {
+    right: 0px;
+}
+
+.moon {
+    background-color: #E9AE4B;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 35px;
+    top: 35px;
+}
+
+.moon:before {
+    background-color: #294679;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    position: absolute;
+    left: 12px;
+    top: 4px;
+}
