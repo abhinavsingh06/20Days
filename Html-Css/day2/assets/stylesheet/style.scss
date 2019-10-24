@@ -296,3 +296,23 @@ body {
     top: -24px;
     left: 100px;
 }
+
+.clouds span :first-child {
+    width: 55px;
+    top: -12px;
+    left: 100px;
+}
+
+.clouds span :nth-child(2) {
+    width: 70px;
+    top: 12px;
+    left: 35px;
+}
+
+.clouds span:before,
+.clouds span:after {
+    height: inherit;
+    border-radius: 14px;
+    background-color: #294679;
+    width: 40px;
+}
