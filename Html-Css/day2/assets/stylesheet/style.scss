@@ -10,3 +10,25 @@
     position: absolute;
     box-sizing: border-box;
 }
+
+body {
+    background-color: tomato;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window {
+    width: 275px;
+    height: 440px;
+    background-color: #294679;
+    border: 18px solid #2D2623;
+    position: relative;
+    border-bottom: none;
+}
