@@ -265,3 +265,22 @@ body {
         box-shadow: 0px 0px 8px 2px #E9AE4B;
     }
 }
+
+.clouds {
+    background-color: #22366C;
+    width: 180px;
+    height: 12px;
+    position: absolute;
+    left: 25px;
+    top: 74px;
+    border-radius: 14px;
+}
+
+.clouds:before,
+.clouds:after,
+.clouds span {
+    height: inherit;
+    border-radius: inherit;
+    background-color: inherit;
+    position: absolute;
+}
