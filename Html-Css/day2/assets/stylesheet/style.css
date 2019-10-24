@@ -99,4 +99,9 @@ body {
   left: 6px;
   border-right: 22px solid transparent;
 }
+
+.mountains-right {
+  right: 6px;
+  border-left: 22px solid transparent;
+}
 /*# sourceMappingURL=style.css.map */
