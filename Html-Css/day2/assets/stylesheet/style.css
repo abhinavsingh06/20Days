@@ -186,4 +186,42 @@ body {
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
 }
+
+.star-2 {
+  width: 4px;
+  height: 4px;
+  top: 30px;
+  left: 50%;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+}
+
+.star-2:before {
+  width: 4px;
+  height: 4px;
+  left: 70px;
+  top: 80px;
+  -webkit-animation: glow ease-in-out infinite alternate;
+          animation: glow ease-in-out infinite alternate;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+.star-2:after {
+  width: 4px;
+  height: 4px;
+  left: -80px;
+  top: 100px;
+  -webkit-animation: glow ease-in-out infinite alternate;
+          animation: glow ease-in-out infinite alternate;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+.star-3 {
+  width: 6px;
+  height: 6px;
+  top: 215px;
+  left: 45px;
+}
 /*# sourceMappingURL=style.css.map */
