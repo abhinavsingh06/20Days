@@ -49,3 +49,29 @@ body {
     bottom: 12px;
     left: -9px;
 }
+
+.window-details {
+    position: relative;
+    height: 12px;
+    width: 100%;
+    top: 190px;
+    background-color: #2D2623;
+}
+
+.window-details:before,
+.window-details:after {
+    border: 6px solid #439ABF;
+    width: 100%;
+    border-top: none;
+}
+
+.window-details:before {
+    height: 190px;
+    top: -190px;
+}
+
+.window-details:after {
+    height: 208px;
+    bottom: -208px;
+    border-bottom: none;
+}
