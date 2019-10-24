@@ -161,3 +161,12 @@ body {
     animation: glow ease-in-out infinite alternate;
     animation-duration: 6s;
 }
+
+.star-1:after {
+    width: 3px;
+    height: 3px;
+    left: 80px;
+    top: 10px;
+    animation: glow ease-in-out infinite alternate;
+    animation-duration: 2s;
+}
