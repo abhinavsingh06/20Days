@@ -409,4 +409,49 @@ body {
   -webkit-transform-origin: left bottom;
           transform-origin: left bottom;
 }
+
+.cat-belly:before {
+  background-color: inherit;
+  width: 12px;
+  height: 100px;
+  top: 73px;
+  right: 14px;
+  border-radius: 12px;
+}
+
+@-webkit-keyframes breathe-belly {
+  0%,
+  20%,
+  50%,
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  40% {
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+  }
+}
+
+@keyframes breathe-belly {
+  0%,
+  20%,
+  50%,
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  40% {
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+  }
+}
+
+.cat-ears:before {
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid #2D2623;
+  border-right: 35px solid transparent;
+  top: -10px;
+}
 /*# sourceMappingURL=style.css.map */
