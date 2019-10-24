@@ -142,4 +142,12 @@ body {
   left: 12px;
   top: 4px;
 }
+
+.star,
+.star:before,
+.star:after {
+  background-color: #E9AE4B;
+  position: absolute;
+  border-radius: 50%;
+}
 /*# sourceMappingURL=style.css.map */
