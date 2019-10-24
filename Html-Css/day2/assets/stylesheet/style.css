@@ -366,4 +366,47 @@ body {
   -webkit-animation: breathe-body 8s ease infinite;
           animation: breathe-body 8s ease infinite;
 }
+
+@-webkit-keyframes breathe-body {
+  0%,
+  5%,
+  100% {
+    height: 125px;
+  }
+  20%,
+  55% {
+    height: 125px;
+  }
+  60%,
+  90% {
+    height: 88px;
+  }
+}
+
+@keyframes breathe-body {
+  0%,
+  5%,
+  100% {
+    height: 125px;
+  }
+  20%,
+  55% {
+    height: 125px;
+  }
+  60%,
+  90% {
+    height: 88px;
+  }
+}
+
+.cat-belly {
+  background-color: inherit;
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  bottom: 0;
+  border-radius: 50%;
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+}
 /*# sourceMappingURL=style.css.map */
