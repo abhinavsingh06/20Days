@@ -42,4 +42,21 @@ body {
   position: relative;
   border-bottom: none;
 }
+
+.window:before {
+  background-color: #2D2623;
+  width: calc(100% + 68px);
+  height: 18px;
+  left: -34px;
+  bottom: 0;
+  border-top: 6px solid #22366C;
+}
+
+.window:after {
+  width: calc(100% + 18px);
+  height: 6px;
+  background-color: #439ABF;
+  bottom: 12px;
+  left: -9px;
+}
 /*# sourceMappingURL=style.css.map */
